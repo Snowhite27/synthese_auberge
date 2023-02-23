@@ -8,6 +8,10 @@
 
 - Je vais utiliser agile et donc faire des "scrums" qui sera une simple rencontre via discord pour savoir ou nous sommes rendu et cibler les besoins.
 
+## Thème:
+
+- Technologique
+
 ## CSS:
 
 - Bootstrap
@@ -35,8 +39,6 @@
 
 ## Étape 3:
 
-- Je vais fournir une vidéo sur la façon de créer vos tâches dans Asana.
-- Ajouter vos échéances sur chacunes d'entre elle.
 - Lorsqu.une tâche est finie. La mettre en Approbation afin que je puisse l'approuver. (voir dans la vidéo)
 
 # Projet synthèse du cours planification et gestion de projet.
