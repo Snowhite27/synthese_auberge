@@ -70,6 +70,7 @@ section {
   text-align: left;
 }
 
+<<<<<<< HEAD
 .index{
   width: auto;
   height: 20vh;
@@ -77,4 +78,8 @@ section {
 
 .techno{
   color: #fbd1b0;
+=======
+section .oli {
+  padding: 0px;
+>>>>>>> DevOlivierL
 }
