@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <title>Présentation de la planification du travail synthèse</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.2.3/dist/cerulean/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/darkly/bootstrap.min.css"
+        integrity="sha384-nNK9n28pDUDDgIiIqZ/MiyO3F4/9vsMtReZK39klb/MtkZI3/LtjSjlmyVPS3KdN" crossorigin="anonymous">
 </head>
 
-<body class="bg-dark">
+<body>
     <header>
 
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -47,12 +48,12 @@
 
     </header>
     <main>
-        <section class="d-flex flex-column w-100">
+        <section class="w-100 d-flex justify-content-center align-items-center flex-column">
             <h2 class="text-center">Apport au travail synthèse de chacun des membres d’équipe</h2>
 
-            <div class="haut d-flex justify-content-evenly align-items-baseline">
+            <div class="d-flex justify-content-evenly align-items-baseline">
                 <div class="card border-light mb-3 mt-3" style="width: 400px; height: 275px;">
-                    <div class="card-header bg-white">David Duchesne <span class="badge bg-danger">David</span>
+                    <div class="card-header ">David Duchesne <span class="badge bg-danger">David</span>
                     </div>
                     <div class="card-body bg-dark">
                         <h5 class="card-title">Développeur principal back-end</h5>
@@ -63,7 +64,7 @@
                     </div>
                 </div>
                 <div class="card border-light mb-3" style="width: 400px; height: 275px">
-                    <div class="card-header bg-light">Mohamed Sbaiti <span class="badge bg-black">Moe</span>
+                    <div class="card-header">Mohamed Sbaiti <span class="badge bg-black">Moe</span>
                     </div>
                     <div class="card-body bg-dark">
                         <h5 class="card-title">Développeur principal front-end/webdesign</h5>
@@ -78,7 +79,7 @@
 
             <div class="bas d-flex justify-content-evenly align-items-baseline mt-5">
                 <div class="card border-light mb-3" style="width: 400px; height: 275px;">
-                    <div class="card-header bg-light">Olivier Moreau<span class="badge bg-success">Olinux</span>
+                    <div class="card-header">Olivier Moreau<span class="badge bg-success">Olinux</span>
                     </div>
                     <div class="card-body bg-dark">
                         <h5 class="card-title">Développeur principal lead technique</h5>
@@ -91,7 +92,7 @@
                     </div>
                 </div>
                 <div class="card border-light mb-3" style="width: 400px; height: 275px;">
-                    <div class="card-header bg-light">Olivier Leblanc<span class="badge bg-primary">Olivier</span>
+                    <div class="card-header">Olivier Leblanc<span class="badge bg-primary">Olivier</span>
                     </div>
                     <div class="card-body bg-dark">
                         <h5 class="card-title" ­>Gestion d'équipe/client et planification</h5>
@@ -105,7 +106,7 @@
 
         </section>
 
-        <section class="w-100">
+        <section class=" oli w-100">
             <h2 class="text-center">Rétroaction globale sur le travail d’équipe</h2>
 
             <h3 class=" text-center mb-3">Motivation</h3>
@@ -114,16 +115,17 @@
                 réunion le jour même
                 pour se séparer les tâches, l'objectif: Terminer le synthèse pour Vendredi le 24 février 2023.</p>
 
-            <h3 class=" text-center mb-5">Charges de travail</h3>
+            <h3 class="text-center mb-5">Charges de travail</h3>
             <div class="d-flex gap-4 overflow-x-auto">
                 <div class="card border-danger mb-3" style="width: 300px;">
                     <div class="card-header bg-danger text-white">Phase 1: Planification et analyses des besoins</div>
                     <div class="card-body bg-dark">
-                        <h4 class="card-title">Phase 1.1: Meeting</h4>
+
                         <p class="text-white">Dès la remise nous avons fait une rencontre d'équipe afin d'évaluer et
                             simuler
                             l'ampleur du projet. Nous
-                            nous sommes inspiré du model DevOps pour la fragmentation des phases à accomplir.
+                            nous sommes inspiré du model DevOps pour la fragmentation des phases à accomplir.</p>
+                        <h5 class="card-title text-light">Phase 1.1: Meeting</h5>
                         <div class="mb-3">
                             <span class="badge bg-danger">David</span><span class="badge bg-black">Moe</span><span
                                 class="badge bg-success">Olinux</span><span class="badge bg-primary">Olivier</span>
@@ -137,7 +139,8 @@
                         </ul>
 
 
-                        <h4 class="card-title">Phase 1.2: Préparation des environnements de développement</h4>
+                        <h5 class="card-title text-light">Phase 1.2: Préparation des environnements de développement
+                        </h5>
                         <p class="text-white">Installation et mise en place des logiciels nécessaires et préparation du
                             début du travail.
                         <div class="mb-3 mt-3">
@@ -162,7 +165,8 @@
                 <div class="card border-danger mb-3" style="width: 300px;">
                     <div class="card-header bg-danger text-white">Phase 2: Conception visuelle</div>
                     <div class="card-body bg-dark">
-
+                        <p>Création des concepts visuels via la maquette et elaboration de la documentation du concept
+                            de marque</p>
                         <div class="mb-3">
                             <span class="badge bg-black">Moe</span><span class="badge bg-primary">Olivier</span>
                         </div>
@@ -301,6 +305,7 @@
                             fonctionnalités et
                             corriger les
                             problèmes rencontrés.</p>
+                        <h5 class="text-light">Phase 5.1: Test</h5>
                         <div class="mb-3">
                             <span class="badge bg-danger">David</span><span class="badge bg-black">Moe</span><span
                                 class="badge bg-success">Olinux</span><span class="badge bg-primary">Olivier</span>
@@ -308,9 +313,17 @@
                         <ul>
                             <li class="text-white">SEO</li>
                             <li class="text-white">Tester les fonctionnalités</li>
+                            <ul>
+                                <li class="text-white">Test Google analytics</li>
+                                <li class="text-white">Test inputs et forms</li>
+                                <li class="text-white">Test Map</li>
+                                <li class="text-white">Test Réservation</li>
+                                <li class="text-white">Test Menu</li>
+                                <li class="text-white">Test Admin</li>
+                            </ul>
                             <li class="text-white">Corriger les anomalies</li>
                         </ul>
-                        <h5>Phase 5.2: Hébergement et test</h5>
+                        <h5 class="text-light">Phase 5.2: Hébergement et test</h5>
                         <div class="mb-3">
                             <span class="badge bg-success">Olinux</span><span class="badge bg-primary">Olivier</span>
                         </div>
@@ -330,10 +343,10 @@
                     </div>
                 </div>
             </div>
-            <h3 class=" text-center">Problèmes</h3>
+            <h3 class="text-center">Problèmes</h3>
             <p class="text-white text-center">Problématique de merge pour une branche du projet</p>
         </section>
-        <section class="d-flex justify-content-center flex-column align-items-center">
+        <section class="d-flex justify-content-center align-items-center flex-column" style="width:100%;">
             <h2 class="text-center">Lien vers Asana</h2>
             <a class="btn btn-danger" data-bs-toggle="offcanvas" style="width:500px;"
                 href="https://app.asana.com/0/1204017146374220/board" role="button" aria-controls="offcanvasExample">

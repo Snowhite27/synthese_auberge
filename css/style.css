@@ -30,3 +30,7 @@ section {
   padding: 20px;
   text-align: left;
 }
+
+section .oli {
+  padding: 0px;
+}
