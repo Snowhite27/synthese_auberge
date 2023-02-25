@@ -13,7 +13,7 @@
 
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-                <img src="divers/images/Hellgate_logo.png" alt="" width="200" height="100">
+                <img src="divers/images/Hellgate_logo.png" alt="" width="200">
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02"
                     aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
@@ -105,186 +105,238 @@
 
         </section>
 
-        <section>
-            <h2>Rétroaction globale sur le travail d’équipe</h2>
+        <section class="w-100">
+            <h2 class="text-center">Rétroaction globale sur le travail d’équipe</h2>
 
-            <h3 class="text-danger">Motivation</h3>
-            <p class="text-white">Nous voulions finir le travail le plus vite possible, nous avons donc préparé une
+            <h3 class="text-danger text-center mb-3">Motivation</h3>
+            <p class="text-white text-center">Nous voulions finir le travail le plus vite possible, nous avons donc
+                préparé une
                 réunion le jour même
                 pour se séparer les tâches, l'objectif: Terminer le synthèse pour Vendredi le 24 février 2023.</p>
 
-            <h3 class="text-danger">Charges de travail</h3>
-            <h4 class="text-light bg-danger">Phase 1: Planification et analyses des besoins</h4>
-            <h5 class="text-light">Phase 1.1: Meeting</h5>
+            <h3 class="text-danger text-center mb-5">Charges de travail</h3>
+            <div class="d-flex gap-4 overflow-x-auto">
+                <div class="card border-danger mb-3" style="width: 300px;">
+                    <div class="card-header bg-danger text-white">Phase 1: Planification et analyses des besoins</div>
+                    <div class="card-body bg-dark">
+                        <h4 class="card-title">Phase 1.1: Meeting</h4>
+                        <p class="text-white">Dès la remise nous avons fait une rencontre d'équipe afin d'évaluer et
+                            simuler
+                            l'ampleur du projet. Nous
+                            nous sommes inspiré du model DevOps pour la fragmentation des phases à accomplir.
+                        <div class="mb-3">
+                            <span class="badge bg-danger">David</span><span class="badge bg-black">Moe</span><span
+                                class="badge bg-success">Olinux</span><span class="badge bg-primary">Olivier</span>
+                        </div>
+                        <ul>
+                            <li class="text-white">Analyse des besoins clients</li>
+                            <li class="text-white">Analyse des besoins technologiques</li>
+                            <li class="text-white">Moodboard de la maquette client</li>
+                            <li class="text-white">Répartition des tâches</li>
+                            <li class="text-white">Mise en place des échéanciers</li>
+                        </ul>
 
-            <p class="text-white">Dès la remise nous avons fait une rencontre d'équipe afin d'évaluer et simuler
-                l'ampleur du projet. Nous
-                nous sommes inspiré du model DevOps pour la fragmentation des phases à accomplir.
-            <div class="mb-3">
-                <span class="badge bg-danger">David</span><span class="badge bg-black">Moe</span><span
-                    class="badge bg-success">Olinux</span><span class="badge bg-primary">Olivier</span>
+
+                        <h4 class="card-title">Phase 1.2: Préparation des environnements de développement</h4>
+                        <p class="text-white">Installation et mise en place des logiciels nécessaires et préparation du
+                            début du travail.
+                        <div class="mb-3 mt-3">
+                            <span class="badge bg-danger">David</span><span class="badge bg-success">Olinux</span>
+                        </div>
+                        <ul>
+                            <li class="text-white">Processus d'installation des logiciels nécessaires</li>
+                            <li class="text-white">Organisaion du Asana</li>
+                            <li class="text-white">Création du répositoire de github </li>
+                            <ul>
+                                <li class="text-white">Ajout collaborateur</li>
+                                <li class="text-white">Création des branches Dev</li>
+                            </ul>
+                            <li class="text-white">Création des environnements virtuels</li>
+                            <li class="text-white">Création de la base de données</li>
+
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="card border-danger mb-3" style="width: 300px;">
+                    <div class="card-header bg-danger text-white">Phase 2: Conception visuelle</div>
+                    <div class="card-body bg-dark">
+
+                        <div class="mb-3">
+                            <span class="badge bg-black">Moe</span><span class="badge bg-primary">Olivier</span>
+                        </div>
+                        <h5 class="text-light">Phase 2.1: Créer l'image de marque</h5>
+                        <ul>
+                            <li class="text-white">Créer un document de résumé pour l’image de marque</li>
+                        </ul>
+                        <h5 class="text-light"> Phase 2.2: Création de la maquette</h5>
+                        <ul>
+                            <li class="text-white">Maquette dynamique</li>
+                            <li class="text-white">Plan d'actifs (Doomboard)</li>
+                            <ul>
+                                <li class="text-white">Polices utilisées</li>
+                                <li class="text-white">Palette de couleurs</li>
+                                <li class="text-white">Variété de logo (couleurs, fond lumineux, fond obscur)</li>
+                            </ul>
+                            <li class="text-white">Un document de didacticiel pour la zone d’administration avec les
+                                accès
+                                pour se
+                                connecter doit être
+                                remis à la fin du projet</li>
+                            <li class="text-white">Faire tester le client</li>
+                        </ul>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card border-danger mb-3" style="width: 300px;">
+                    <div class="card-header bg-danger text-white">Phase 3: Développement du site</div>
+                    <div class="card-body bg-dark">
+                        <p class="text-white">Développement du site après l'approbation de la maquette par le client.
+                            Une
+                            partie du
+                            développement aura
+                            déjà été commencée en phase 1.2. </p>
+
+                        <div class="mb-3">
+                            <span class="badge bg-black">Moe</span><span class="badge bg-primary">Olivier</span>
+                        </div>
+                        <h5 class="text-light">Phase 3.1: Programmation</h5>
+                        <div class="mb-3 mt-3">
+                            <span class="badge bg-danger">David</span><span class="badge bg-success">Olinux</span>
+                        </div>
+
+                        <ul class="text-white">Backend
+
+                            <li class="text-white">La liste d’administrateurs du site doit être modifiable (création,
+                                modification
+                                et suppression)</li>
+                            <li class="text-white">MOdification de la liste de clients inscrits au site par les
+                                administrateurs
+                                (modification et
+                                suppression)</li>
+                            <li class="text-white">Les statistiques du nombre de pages vues doivent être enregistrées
+                                dans
+                                Google
+                                Analytics</li>
+                            <li class="text-white">Une page doit contenir une liste d’actualités éditables avec une zone
+                                d’administration pour la
+                                gestion des actualités</li>
+                            <li class="text-white">Menu avec les plats et les prix éditables dans la zone admin</li>
+                            <li class="text-white">Page d’administration (pour les employés) qui permet de voir
+                                l’ensemble
+                                des
+                                réservations des clients
+                                à venir, ordonnées par date croissante</li>
+                            <li class="text-white">Annulation d'une réservation à partir de cette liste par
+                                l’administrateur</li>
+                        </ul>
+                        <div class="mb-3 mt-3">
+                            <span class="badge bg-black">Moe</span><span class="badge bg-primary">Olivier</span>
+                        </div>
+                        <ul class="text-white">Front-End
+
+                            <li class="text-white">Une page doit contenir une carte virtuelle de l’emplacement
+                                géographique
+                            </li>
+                            <li class="text-white">Les heures d’ouvertures du restaurant</li>
+                            <li class="text-white">Menu avec les plats et les prix éditables dans la zone admin</li>
+                            <li class="text-white">À vous de définir les informations requises pour une chambre.</li>
+                            <li class="text-white">Réservation d’un forfait avec une date d’arrivée et une date de
+                                départ.
+                            </li>
+                            <li class="text-white">La réservation doit être sauvegardée dans le compte du client et il
+                                est
+                                possible
+                                pour lui de
+                                l’annuler à tout moment</li>
+                            <li class="text-white">Une liste d’activités disponibles à l’hôtel ou par l’hôtel doit être
+                                présentée de
+                                façon intéressante
+                                et dynamique visuellement.</li>
+                        </ul>
+                        <h5 class="text-light">Phase 3.2 | Implémentation du CSS</h5>
+                        <div class="mb-3 mt-3">
+                            <span class="badge bg-black">Moe</span><span class="badge bg-success">Olinux</span>
+                        </div>
+                        <p class="text-white">Les développeurs back-end feront leurs tests de fonctionnalités tandis que
+                            les
+                            developpeurs front-end et
+                            fullstack feront l'intégration CSS en suivant la maquette</p>
+                        <ul>
+                            <li class="text-white">Implémentation du CSS</li>
+                            <li class="text-white">Ajout des features en JS</li>
+                            <li class="text-white">SEO</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="card border-danger mb-3" style="width:300px;">
+                    <div class="card-header bg-danger text-white">Phase 4: Vérification complet du projet</div>
+                    <div class="card-body bg-dark">
+                        <p class="text-white">Cette phase consiste à tester l'ensemble du site, chacunes de ces
+                            fonctionnalités et
+                            corriger les
+                            problèmes rencontrés.</p>
+                        <div class="mb-3">
+                            <span class="badge bg-danger">David</span><span class="badge bg-black">Moe</span><span
+                                class="badge bg-success">Olinux</span><span class="badge bg-primary">Olivier</span>
+                        </div>
+                        <ul>
+                            <li class="text-white">SEO</li>
+                            <li class="text-white">Tester les fonctionnalités</li>
+                            <li class="text-white">Corriger les anomalies</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="card border-danger mb-3" style="width: 300px;">
+                    <div class="card-header bg-danger text-white">Phase 5: Présentation à l'équipe</div>
+                    <div class="card-body bg-dark">
+
+                        <p class="text-white">Cette phase consiste à tester l'ensemble du site, chacunes de ces
+                            fonctionnalités et
+                            corriger les
+                            problèmes rencontrés.</p>
+                        <div class="mb-3">
+                            <span class="badge bg-danger">David</span><span class="badge bg-black">Moe</span><span
+                                class="badge bg-success">Olinux</span><span class="badge bg-primary">Olivier</span>
+                        </div>
+                        <ul>
+                            <li class="text-white">SEO</li>
+                            <li class="text-white">Tester les fonctionnalités</li>
+                            <li class="text-white">Corriger les anomalies</li>
+                        </ul>
+                        <h5>Phase 5.2: Hébergement et test</h5>
+                        <div class="mb-3">
+                            <span class="badge bg-success">Olinux</span><span class="badge bg-primary">Olivier</span>
+                        </div>
+                        <p class="text-white">Mise en ligne du site et tests finaux</p>
+                        <ul>
+                            <li class="text-white">Mise en ligne du site</li>
+                            <li class="text-white">Test de fonctionnalité</li>
+                            <ul>
+                                <li class="text-white">Test Google analytics</li>
+                                <li class="text-white">Test inputs et forms</li>
+                                <li class="text-white">Test Map</li>
+                                <li class="text-white">Test Réservation</li>
+                                <li class="text-white">Test Menu</li>
+                                <li class="text-white">Test Admin</li>
+                            </ul>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <ul>
-                <li class="text-white">Analyse des besoins clients</li>
-                <li class="text-white">Analyse des besoins technologiques</li>
-                <li class="text-white">Moodboard de la maquette client</li>
-                <li class="text-white">Répartition des tâches</li>
-                <li class="text-white">Mise en place des échéanciers</li>
-            </ul>
-
-            <h5>Phase 1.2: Préparation des environnements de développement</h5>
-            <div class="mb-3 mt-3">
-                <span class="badge bg-danger">David</span><span class="badge bg-success">Olinux</span>
-            </div>
-            <ul>
-                <li class="text-white">Processus d'installation des logiciels nécessaires</li>
-                <li class="text-white">Organisaion du Asana</li>
-                <li class="text-white">Création du répositoire de github </li>
-                <li class="text-white">Création des environnements virtuels</li>
-                <li class="text-white">Création de la base de données</li>
-                <ul>
-                    <li class="text-white">Ajout collaborateur</li>
-                    <li class="text-white">Création des branches Dev</li>
-                </ul>
-            </ul>
-
-            <h4 class="text-light bg-danger">Phase 2: Conception visuelle</h4>
-            <p class="text-white">Principalement la conception de la maquette et le développement de l'image de marque,
-                cette phase peut
-                être exécutée en même temps que la phase 1.2.</p>
-            <div class="mb-3">
-                <span class="badge bg-black">Moe</span><span class="badge bg-primary">Olivier</span>
-            </div>
-            <h5 class="text-light">Phase 2.1: Créer l'image de marque</h5>
-            <ul>
-                <li class="text-white">Créer un document de résumé pour l’image de marque</li>
-            </ul>
-            <h5 class="text-light"> Phase 2.2: Création de la maquette</h5>
-            <ul>
-                <li class="text-white">Maquette dynamique</li>
-                <li class="text-white">Plan d'actifs (Doomboard)</li>
-                <ul>
-                    <li class="text-white">Polices utilisées</li>
-                    <li class="text-white">Palette de couleurs</li>
-                    <li class="text-white">Variété de logo (couleurs, fond lumineux, fond obscur)</li>
-                </ul>
-                <li class="text-white">Un document de didacticiel pour la zone d’administration avec les accès pour se
-                    connecter doit être
-                    remis à la fin du projet</li>
-                <li class="text-white">Faire tester le client</li>
-            </ul>
-
-
-
-            <h4 class="text-light bg-danger">Phase 3: Développement</h4>
-            <p class="text-white">Développement du site après l'approbation de la maquette par le client. Une partie du
-                développement aura
-                déjà été commencée en phase 1.2. </p>
-            <h5 class="text-light">Phase 3.1: Programmation</h5>
-            <div class="mb-3 mt-3">
-                <span class="badge bg-danger">David</span><span class="badge bg-success">Olinux</span>
-            </div>
-            <ul class="text-white">Backend
-
-                <li class="text-white">La liste d’administrateurs du site doit être modifiable (création, modification
-                    et suppression)</li>
-                <li class="text-white">La liste de clients inscrits au site doit être modifiable par les administrateurs
-                    (modification et
-                    suppression)</li>
-                <li class="text-white">Les statistiques du nombre de pages vues doivent être enregistrées dans Google
-                    Analytics</li>
-                <li class="text-white">Une page doit contenir une liste d’actualités éditables avec une zone
-                    d’administration pour la
-                    gestion des actualités</li>
-                <li class="text-white">Menu avec les plats et les prix éditables dans la zone admin</li>
-                <li class="text-white">Page d’administration (pour les employés) qui permet de voir l’ensemble des
-                    réservations des clients
-                    à venir, ordonnées par date croissante</li>
-                <li class="text-white">Possibilité d’annuler une réservation à partir de cette liste par
-                    l’administrateur</li>
-            </ul>
-            <div class="mb-3 mt-3">
-                <span class="badge bg-black">Moe</span><span class="badge bg-primary">Olivier</span>
-            </div>
-            <ul class="text-white">Front-End
-
-                <li class="text-white">Une page doit contenir une carte virtuelle de l’emplacement géographique (prenez
-                    un endroit de votre
-                    choix en lien avec votre thème d’hôtel)</li>
-                <li class="text-white">Les heures d’ouvertures du restaurant</li>
-                <li class="text-white">Menu avec les plats et les prix éditables dans la zone admin</li>
-                <li class="text-white">À vous de définir les informations requises pour une chambre.</li>
-                <li class="text-white">Réservation d’un forfait avec une date d’arrivée et une date de départ.</li>
-                <li class="text-white">La réservation doit être sauvegardée dans le compte du client et il est possible
-                    pour lui de
-                    l’annuler à tout moment</li>
-                <li class="text-white">Une liste d’activités disponibles à l’hôtel ou par l’hôtel doit être présentée de
-                    façon intéressante
-                    et dynamique visuellement.</li>
-            </ul>
-            <h5 class="text-light">Phase 3.2 | Implémentation du CSS</h5>
-            <div class="mb-3 mt-3">
-                <span class="badge bg-black">Moe</span><span class="badge bg-success">Olinux</span>
-            </div>
-            <p class="text-white">Les développeurs back-end feront leurs tests de fonctionnalités tandis que les
-                developpeurs front-end et
-                fullstack feront l'intégration CSS en suivant la maquette</p>
-            <ul>
-                <li class="text-white">Implémentation du CSS</li>
-                <li class="text-white">Ajout des features en JS</li>
-                <li class="text-white">SEO</li>
-            </ul>
-
-            <h4 class="text-light bg-danger">Phase 4: Vérification complet du projet</h4>
-            <p class="text-white">Cette phase consiste à tester l'ensemble du site, chacunes de ces fonctionnalités et
-                corriger les
-                problèmes rencontrés.</p>
-            <div class="mb-3">
-                <span class="badge bg-danger">David</span><span class="badge bg-black">Moe</span><span
-                    class="badge bg-success">Olinux</span><span class="badge bg-primary">Olivier</span>
-            </div>
-            <ul>
-                <li class="text-white">SEO</li>
-                <li class="text-white">Tester les fonctionnalités</li>
-                <li class="text-white">Corriger les anomalies</li>
-            </ul>
-
-            <h4 class="text-light bg-danger">Phase 5: Présentation à l'équipe</h4>
-            <p class="text-white">Présentation du projet avant lancement</p>
-            <h5 class="text-light">Phase 5.1: Présentation du projet</h5>
-            <div class="mb-3">
-                <span class="badge bg-danger">David</span><span class="badge bg-black">Moe</span><span
-                    class="badge bg-success">Olinux</span><span class="badge bg-primary">Olivier</span>
-            </div>
-            <ul>
-                <li class="text-white">Présentation à l'équipe</li>
-                <li class="text-white">Présentation au client</li>
-            </ul>
-            <h5>Phase 5.2: Hébergement et test</h5>
-            <div class="mb-3">
-                <span class="badge bg-success">Olinux</span><span class="badge bg-primary">Olivier</span>
-            </div>
-            <p class="text-white">Mise en ligne du site et tests finaux</p>
-            <ul>
-                <li class="text-white">Mise en ligne du site</li>
-                <li class="text-white">Test de fonctionnalité</li>
-                <ul>
-                    <li class="text-white">Test Google analytics</li>
-                    <li class="text-white">Test inputs et forms</li>
-                    <li class="text-white">Test Map</li>
-                    <li class="text-white">Test Réservation</li>
-                    <li class="text-white">Test Menu</li>
-                    <li class="text-white">Test Admin</li>
-                </ul>
-            </ul>
-
-            <h3 class="text-danger">Problèmes</h3>
-            <p class="text-white">Pas eu de vrais problèmes rencontrés.</p>
+            <h3 class="text-danger text-center">Problèmes</h3>
+            <p class="text-white text-center">Problématique de merge pour une branche du projet</p>
         </section>
-        <section>
-            <h2 class="text-danger">Lien vers Asana</h2>
-            <a class="btn btn-danger " data-bs-toggle="offcanvas" href="https://app.asana.com/0/1204017146374220/board"
-                role="button" aria-controls="offcanvasExample">
+        <section class="d-flex justify-content-center flex-column align-items-center">
+            <h2 class="text-center">Lien vers Asana</h2>
+            <a class="btn btn-danger" data-bs-toggle="offcanvas" style="width:500px;"
+                href="https://app.asana.com/0/1204017146374220/board" role="button" aria-controls="offcanvasExample">
                 Asana
             </a>
         </section>
